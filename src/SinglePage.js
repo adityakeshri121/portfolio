@@ -41,10 +41,29 @@ const SinglePage = () => {
 
 
 
-                <section id="skills">Skills</section>
+                <section id="skills">
+                    <h1 className='section-heading mb75px'>
+                        <span><i class="fa-solid fa-chalkboard-user"></i></span>
+                        <span>SKILLS</span>
+                    </h1>
+
+                    <div className="skills-display">
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-blue">
+                                <div className="skill-name">
+                                    <span>HTML 5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
                 <section id="experience">Experience</section>
                 <section id="projects">Projects</section>
             </main>
+
+
             <section id="contact">Contact
                 <li><a href="#"><i class="fa-solid fa-up-long"></i></a></li>
             </section>
