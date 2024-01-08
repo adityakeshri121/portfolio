@@ -45,7 +45,9 @@ const SinglePage = () => {
                 <section id="experience">Experience</section>
                 <section id="projects">Projects</section>
             </main>
-            <section id="contact">Contact</section>
+            <section id="contact">Contact
+                <li><a href="#"><i class="fa-solid fa-up-long"></i></a></li>
+            </section>
         </div>
     )
 }
