@@ -10,9 +10,9 @@ const SinglePage = () => {
                     <ul className='horizontal-list text-center nav-menu'>
                         <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
 
@@ -55,6 +55,73 @@ const SinglePage = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-orange">
+                                <div className="skill-name">
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-green">
+                                <div className="skill-name">
+                                    <span>JavsScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-brown">
+                                <div className="skill-name">
+                                    <span>React.js</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-yellow">
+                                <div className="skill-name">
+                                    <span>Redux</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-blue">
+                                <div className="skill-name">
+                                    <span>Responsive Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-brown">
+                                <div className="skill-name">
+                                    <span>Web development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-orange">
+                                <div className="skill-name">
+                                    <span>Tailwind CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-green">
+                                <div className="skill-name">
+                                    <span>Git</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='skill-progress'>
+                            <div className="eighty-five-percent mb-yellow">
+                                <div className="skill-name">
+                                    <span>JSX</span>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </section>
 
